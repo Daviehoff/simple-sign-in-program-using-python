@@ -1,1 +1,1 @@
-# simple-sign-in-program-using-python
+This is just a simple python sign-in program, it checks whether the user input matches the approved code and names and grants access if they are, otherwise it will keep printing the sign-in until it matches because of the while loop.
