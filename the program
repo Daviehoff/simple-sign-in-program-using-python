@@ -1,0 +1,18 @@
+while True:
+    #storing the approved codes
+    approved_codes = "GCYQ", "QUIOWE", "IaOPQW", "OPQNAE"
+    #storing the approved people
+    approved_people = "Mark", "Anna", "John", "Mike"
+    #taking input from user (name)
+    name = input("Enter name: ")
+    #taking input from user (code)
+    code = input("Enter code: ")
+    
+    #checking to see if user input matched the approved people and codes
+    if name in approved_people and code in approved_codes:
+        print("Access Granted.")
+        break
+    else:
+        print("Access Denied, you seem to have entered the wrong information, please try again.")
+        continue
+        
